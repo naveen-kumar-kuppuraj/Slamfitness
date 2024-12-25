@@ -1,0 +1,88 @@
+.Franciese-oppertunity {
+   background-image: url("C:/Users/DELL/Music/GYM/src/Components/Images/g4.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 600px;
+   width: 100%;
+   z-index: 1;
+   background-color: rgba(0, 0, 0, 0.7);
+   margin-top: 50px;
+ }
+ 
+ .form-container {
+   margin: auto;
+   padding: 10px;
+   width: 500px;
+   margin-top: 50px;
+ }
+ 
+ .our-Franchise {
+   margin-top: 100px;
+ }
+ 
+ .training {
+   border-color: #868585;
+   border-radius: 5px;
+   border-width: 10px;
+   box-shadow: 0px 0px 0px 10px #868585;
+ }
+ 
+
+ @media (max-width: 1024px) {
+   .Franciese-oppertunity {
+     height: 500px; 
+     margin-top: 40px;
+   }
+ 
+   .form-container {
+     width: 90%; 
+     margin-top: 40px;
+   }
+ 
+   .our-Franchise {
+     margin-top: 80px; 
+   }
+ }
+ 
+ 
+ @media (max-width: 768px) {
+   .Franciese-oppertunity {
+     height: 400px; 
+     background-size: cover; 
+     margin-top: 30px;
+   }
+ 
+   .form-container {
+     width: 80%;
+     padding: 15px;
+     margin-top: 30px;
+   }
+ 
+   .our-Franchise {
+     margin-top: 60px; 
+   }
+ }
+ 
+ 
+ @media (max-width: 480px) {
+   .Franciese-oppertunity {
+     height: 300px; 
+     margin-top: 20px;
+   }
+ 
+   .form-container {
+     width: 90%; 
+     padding: 10px;
+     margin-top: 20px;
+   }
+ 
+   .our-Franchise {
+     margin-top: 40px; 
+   }
+ 
+   .training {
+     box-shadow: 0px 0px 0px 5px #868585; 
+   }
+ }
+ 

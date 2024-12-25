@@ -1,0 +1,98 @@
+.sev-poster {
+    width: 100%;
+    height: 420px;
+}
+
+.ser-title {
+    color: red;
+}
+
+.service-insert {
+    background-image: url(https://slamfitnessstudio.in/wp-content/uploads/2023/07/func-train.webp);
+    height: 720px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-ser {
+    padding: 20px;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+  
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .service-insert {
+        height: 600px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sev-poster {
+        height: 380px;
+    }
+
+    .service-insert {
+        height: 500px;
+    }
+
+    .ser-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sev-poster {
+        height: 300px;
+    }
+
+    .service-insert {
+        height: 400px;
+    }
+
+    .ser-title {
+        font-size: 1.2rem;
+    }
+
+    .iframe-container {
+        padding-bottom: 75%; /* Aspect ratio for mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .sev-poster {
+        height: 220px;
+    }
+
+    .service-insert {
+        height: 300px;
+    }
+
+    .col-ser {
+        padding: 10px;
+    }
+
+    .ser-title {
+        font-size: 1rem;
+    }
+
+    .iframe-container {
+        padding-bottom: 100%; /* 1:1 Aspect Ratio for smaller devices */
+    }
+}

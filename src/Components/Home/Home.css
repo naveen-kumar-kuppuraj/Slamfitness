@@ -1,0 +1,78 @@
+.custom-slam {
+   margin-top: 50px;
+   font-size: 20px;
+}
+
+.slam {
+   color: red;
+}
+
+.poster {
+   border-top-left-radius: 70px;
+   border-bottom-right-radius: 70px;
+   box-shadow: 0px 0px 0px 0px red,
+      -5px -5px 0px 1px red;
+}
+
+.image-container {
+   padding: 15px;
+   width: 400px; 
+   height: 280px;
+   border-radius: 30px;
+   cursor: pointer;
+   margin-right: 25px;
+   margin-left: 25px;
+}
+
+.image-container:hover {
+   transform: scale(1.1);
+   transition: 1s;
+}
+.home-para{
+   font-size: 20px;
+   padding: 10px;
+   line-height: 35px;
+}
+
+
+@media (max-width: 1024px) {
+   .custom-slam {
+      font-size: 18px; 
+   }
+
+   .image-container {
+      width: 90%; 
+      height: auto; 
+      margin-right: auto; 
+      margin-left: auto; 
+      margin-bottom: 20px; 
+   }
+}
+
+
+@media (max-width: 768px) {
+   .custom-slam {
+      font-size: 16px; 
+      margin-top: 30px; 
+   }
+
+   .image-container {
+      width: 95%; 
+      height: auto; 
+      margin-bottom: 15px; 
+   }
+}
+
+
+@media (max-width: 480px) {
+   .custom-slam {
+      font-size: 14px; 
+      margin-top: 20px; 
+   }
+
+   .image-container {
+      width: 100%; 
+      height: auto; 
+      margin-bottom: 10px; 
+   }
+}
